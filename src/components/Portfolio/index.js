@@ -2,7 +2,6 @@
 import React,{ useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./index.scss";
-import { Link } from 'react-router-dom'
 import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import './index.scss'
@@ -128,7 +127,7 @@ const Portfolio = () => {
           </a>
           </il>
           <il>
-          <a  class="fa-3x" href="resume.html" >
+          <a  class="fa-3x" href="../../assets/images/Mohamed_Soboh_Fullstack_CV.pdf" >
             <FontAwesomeIcon
               icon={faFileCsv}
               color="white"
@@ -137,9 +136,6 @@ const Portfolio = () => {
           </a>
           </il>
       </ul>
-      <a to="/contact" className="flat-button">
-            CONTACT ME
-          </a>
                 <Col xs={12} md={6} xl={5}>
                   <TrackVisibility>
                     {({ isVisible }) =>
